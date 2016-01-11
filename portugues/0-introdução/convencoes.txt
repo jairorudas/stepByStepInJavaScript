@@ -1,0 +1,7 @@
+
+# Neste repositorio.
+Olá!! neste repositorio procuramos ensinar a você bases solidas da linguagem JavaSctipt, abordaremos passo a passo
+todos os elementos que compõem a linguagem e como eles funcionam.
+
+Além, esté repositorio possui uma wiki (do lado direito você acha o icone) onde estão todas explicações literais ou
+academicas da linguagem.
