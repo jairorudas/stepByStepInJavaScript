@@ -39,4 +39,4 @@ function multiplica(r) {
   return r * multiplica(r-1);
 }
 
-console.log(multiplica(3));
+console.log(multiplica(3));// Retona 120
