@@ -22,3 +22,21 @@ function calcular(b, g, h) {
 
 var resultado = calcular(15, 3, 8);
 console.log(resultado);
+
+/*
+    arguments.callee
+
+    A propridade callee do objeto argument fornece um mecanismo para chamar uma função
+    anonima dentro de se mesma. ouseja permite chamar uma função anonima de maneira recursiva.
+    veamos...
+*/
+
+function multiplica(r) {
+
+  if(r == 0 ) {
+    return 1
+  }
+  return r * multiplica(r-1);
+}
+
+console.log(multiplica(3));
