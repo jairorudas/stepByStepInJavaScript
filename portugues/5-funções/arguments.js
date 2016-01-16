@@ -13,13 +13,12 @@
 */
 
 function calcular(b, g, h) {
-  console.log(arguments.length);//retorna a quantidade de argumentos que estão sendo passadas pra função
+  console.log(arguments.length);//retorna a quantidade de argumentos que estão sendo passadas pra função ouseja 3 argumentos.
   console.log(arguments[0]); // Retona 15
   console.log(arguments[1]); // Retona 3
   console.log(arguments[2]); // Retona 8
   return (b * h)/g
 }
-
 var resultado = calcular(15, 3, 8);
 console.log(resultado);
 
@@ -39,4 +38,15 @@ function multiplica(r) {
   return r * multiplica(r-1);
 }
 
-console.log(multiplica(3));// Retona 120
+console.log(multiplica(3));// Retona 6
+
+//Agora com arguments
+function multiplica(r) {
+
+  if(r == 0 ) {
+    return 1
+  }
+  return r * arguments.callee(r-1);
+}
+
+console.log(multiplica(3));// Retona 6
