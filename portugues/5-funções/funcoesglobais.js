@@ -8,8 +8,8 @@
     da linguagem. As funções globais são.
 */
 
-encodeURI(uri);
-decodeURI(uri);
+encodeURI(uri); // Codifica uma URL
+decodeURI(uri); // Decodifica uma URL Codificada com encodeURI(uri)
 encodeURIComponent(uri);
 decodeURIComponent(uri);
 escape(string);// removida da ECMAScript 3
