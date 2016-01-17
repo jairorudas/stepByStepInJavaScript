@@ -1,0 +1,19 @@
+Na pasta 0-introdução vimos string como tipo de dado.
+
+Mas nesta pasta ou capitulo veremos string como objeto e seus metodos.
+
+Antes de continuar vamos definir Strings como dado e como objeto.
+
+String como dado: É um ou mais caracteres entre aspas simples ('') ou duplas (" ")
+
+String como Objeto: É um objeto global da linguagem javaScript usado para criar instancias de
+strings, que por sua vez armazenam textos. As propiedades e metodos do objeto String permitem
+manipular os textos nele armazenados.
+
+Existem duas sintaxes para difeentes para criar string conforme mostrado a seguir:
+
+* Atribuir uma string a uma Variavel:
+    var text = 'Dom Pedro'
+
+* com o uso do objeto construtor precedido da palavra-chave new:
+    var text = new String ('Dom Pedro');
