@@ -33,7 +33,7 @@ console.log(resultado);
 function multiplica(r) {
 
   if(r == 0 ) {
-    return 1
+    return 0
   }
   return r * multiplica(r-1);
 }
