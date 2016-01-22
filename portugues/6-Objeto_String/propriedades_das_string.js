@@ -8,7 +8,7 @@
 
 /*
   * length: Length nos indica o numero de caracteres que possui uma String, inclui espaços
-  em branco e caracteres especiais.
+    em branco e caracteres especiais.
 */
 
 var foo = "laranja";
