@@ -52,13 +52,13 @@ var mudaValue = function (ind, elem, obj) {
 
     if (ind.tipoChip === 'normal') {
          ind.value = 'CHIPNORMAL4GT';
-         return {ind};
+         return ind;
      } else if (ind.tipoChip ==='micro') {
           ind.value = 'CHIPMICRO4GTIM';
-          return {ind};
+          return ind;
     } else {
          ind.value = 'CHIPNANO4GTIM';
-         return {ind};
+         return ind;
      }
 }
 var retorno = celulares.map(mudaValue);
