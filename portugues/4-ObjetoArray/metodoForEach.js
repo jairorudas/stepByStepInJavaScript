@@ -1,31 +1,32 @@
-/* Metodo ForEach()
+/*
+      Metodo ForEach()
 
-Este método destina-se a percorrer cada um dos elementos de um array e executar uma função
-callback. Não alterá o array original e admite um argumento obrigatório, que é uma função
-callback, e um argumento opcional.
+      Este método destina-se a percorrer cada um dos elementos de um array e executar uma função
+      callback. Não alterá o array original e admite um argumento obrigatório, que é uma função
+      callback, e um argumento opcional.
 
-Este metodo é uma forma mais facil de percorrer um Array, pode ser substituir em algumas ocações
-ao clasico ciclo 'for'.
+      Este metodo é uma forma mais facil de percorrer um Array ou objeto, pode ser substituir em algumas ocações
+      ao clasico ciclo 'for'.
 
-Está função é executada para cada um dos elementos do array e o valor retornado é inserido
-em um novo array que se constitui no "array resultado"  da aplicação da função callback
+      Está função é executada para cada um dos elementos do array e o valor retornado é inserido
+      em um novo array que se constitui no "array resultado"  da aplicação da função callback
 
-O metodo requer três argumementos que representam respectivamente o valor de cada
-elemento do Array, do o indice de cada elemento e o objeto Array sendo percorrido.
+      O metodo requer três argumementos que representam respectivamente o valor de cada
+      elemento do Array, do o indice de cada elemento e o objeto Array sendo percorrido.
 
-foreach(funcaoCallback(elem,ind,obj,[thisObjeto]))
+      foreach(funcaoCallback(elem,ind,obj,[thisObjeto]))
 
-O argumento thisObjeto define um objeto a ser usado como this na função callback, se for omitido
-será usado o objeto global sendo percorrido.
+      O argumento thisObjeto define um objeto a ser usado como this na função callback, se for omitido
+      será usado o objeto global sendo percorrido.
 
-Veremos exemplo a seguir
+      Veremos exemplo a seguir
 */
 
 //Exemplo 1
 var edad = [21,3,18,"a", 290];
 var mensage;
 //criamos nossa função callback
-function andando(elem, ind, obj){
+function andando (elem, ind, obj) {
   mensage += "\n" + "arr[" + ind + "] = " + elem + "\n";
   return mensage;
 }
@@ -43,7 +44,7 @@ oficina = [{
   bloco : 15
 }];
 
-function recorrendo(elem,ind,obj){
+function recorrendo (elem,ind,obj) {
   for (var k = 0; k <= oficina.length; k += 1) {
     if(typeof oficina[k] == "object"){
       for (var i in oficina[k]) {
