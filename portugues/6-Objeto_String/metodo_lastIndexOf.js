@@ -24,5 +24,5 @@ console.log(navegador.lastIndexOf("a")); // Retorna 62, é a ultima 'a' achada.
 
 //Exemplo 3
 var navegador = 'Chrome , chrome, Opera, opera, Safari, safari, Mozilla, mozilla';
-console.log(navegador.lastIndexOf("M", 17)); // Retorna -1, pois ele fez a busca da letra 'M' da posição 17 até
+console.log(navegador.lastIndexOf("Mo", 17)); // Retorna -1, pois ele fez a busca da letra 'M' da posição 17 até
 // A posiçã 0 e não achou 'M' em caixa alta nessas posições.
