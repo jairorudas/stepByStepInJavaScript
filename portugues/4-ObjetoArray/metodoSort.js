@@ -7,6 +7,8 @@
     serão transformados em string para determinar a ordem, resultando em ordenação não numerica.
 */
 
+//---------------------------------------------------------------------------------------
+
 //Exemplo 1
 var conjunto = ['casa', 'camera', 'cabo', 'café'];
 conjunto.sort(); //Retorna ["cabo", "café", "camera", "casa"] ordem alfabetica;
@@ -15,10 +17,14 @@ conjunto.sort(); //Retorna ["cabo", "café", "camera", "casa"] ordem alfabetica;
 var numeros = [111,2,3,5,98,4,5];
 numeros.sort();// /Retorna [111, 2, 3, 4, 5, 5, 98]; ordem alfabetica
 
+//---------------------------------------------------------------------------------------
 
-//Exemplo 3
-/*Agora vamos ordenar o anterior array do menor numero ao maior. Para isso passamos como argumento
-uma função.*/
+//Exemplo 2
+
+/*
+  Agora vamos ordenar o anterior array do menor numero ao maior. Para isso passamos como argumento
+  uma função.
+*/
 
 var ordem = [111,2,3,5,98,4,5];
 ordem.sort(function(a,b){

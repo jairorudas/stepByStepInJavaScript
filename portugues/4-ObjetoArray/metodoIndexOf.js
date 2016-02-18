@@ -19,26 +19,39 @@
 indexOf(2) //busca  o numero 2 no array sendo percorrido.
 indexOf("2") // buscará uma STRING que contem o número 2.
 
+//---------------------------------------------------------------------------------------
+
 //Exemplo 2
 var colecao = [2,3,5,1,7,3];
 
 var busca1 = colecao.indexOf("3");
 console.log(busca1);
-/*Retorna -1, pois esse tipo de dado (string com o número 3) não existe nesse Array */
+/*
+  Retorna -1, pois esse tipo de dado (string com o número 3) não existe nesse Array
+*/
 
+//---------------------------------------------------------------------------------------
+
+//Exemplo 2
 var busca2 = colecao.indexOf(3);
 console.log(busca2); // Retorna 1, pois o NUMERO 3 está na posição 1 do Array.
-/*Ele retorna o PRIMEIRO elemento que satisfaça a condição e ali para, e retorna a posição do elemento.*/
+/*
+  Ele retorna o PRIMEIRO elemento que satisfaça a condição e ali para, e retorna a posição do elemento.
+*/
 
+//---------------------------------------------------------------------------------------
 
-/*Agora vamos fazer um exercicio usando o segundo argumento*/
+//Exemplo 3
+//Agora vamos fazer um exercicio usando o segundo argumento
 
 var busca3 = colecao.indexOf(7, 3);
 console.log(bucsa3);
-/*Retona 4!, você se estará perguntando, como assim que 4 se eu mandei buscar desde a posição 3, ele deve ser retornar
-que está na posição 1, pois começo a busca a partir do 3.
+/*
+  Retona 4!, você se estará perguntando, como assim que 4 se eu mandei buscar desde a posição 3, ele deve ser retornar
+  que está na posição 1, pois começo a busca a partir do 3.
 
-Bom, na verdade aqui as posições não mudam se você espesifica a posição onde deve começãr a busca; os developers
-usam este segundo parametro quando tem certeça que aquilo que  procuram não estará nas posições anteriores do array.
-Se usa mais para poupar ao processador percorrer espaços no Array desnecessarios. Ao final isso aumenta a performance
-do programa.*/
+  Bom, na verdade aqui as posições não mudam se você espesifica a posição onde deve começãr a busca; os developers
+  usam este segundo parametro quando tem certeça que aquilo que  procuram não estará nas posições anteriores do array.
+  Se usa mais para poupar ao processador percorrer espaços no Array desnecessarios. Ao final isso aumenta a performance
+  do programa.
+*/

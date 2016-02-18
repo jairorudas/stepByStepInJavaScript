@@ -8,6 +8,12 @@
       locais do dispositivo interpretador. Na pratica não há diferença entre os métodos.
 */
 
+//---------------------------------------------------------------------------------------
+//Exemplo 1
+
 var pinguin = [23, 29, 33, 34];
 var result = pinguin.toString();
-console.log(result); // Retona 23,29,33,34, se você guardar numa varievel e logo aplica typeof variavel será igual a 'string'
+console.log(result);
+// Retona 23,29,33,34, se você guardar numa varievel e logo aplica typeof variavel será igual a 'string'
+
+//---------------------------------------------------------------------------------------

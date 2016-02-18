@@ -14,6 +14,8 @@
     * Argumentos negativos revertem o inicio da contagem do ultimo para o primeiro.(Explicaré este detalhe baixo).
 */
 
+//---------------------------------------------------------------------------------------
+
 //Exemplo 1
 var arr = [1,2,3,4, "a","b","c"];
 
@@ -53,3 +55,5 @@ console.log(n); //retona ["3"]
     faz a contagem normal, pois o numero é positivo. No final retorna "3" pois não é mostrado o
     ultimo elemento. Não é mostrado porque a ultima posição do segundo argumento nunca é mostrada.
 */
+
+//---------------------------------------------------------------------------------------
