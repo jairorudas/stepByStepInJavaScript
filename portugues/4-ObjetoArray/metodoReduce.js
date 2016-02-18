@@ -17,10 +17,16 @@ uranio = function(v1,v2,ind,arr,start){
 }
 
 var g = plutonio.reduce(uranio, 200);
-console.log(g); /* Este processo nos loguea 215 porque o valor inicial foi 200, lembra do
-ultimo parametro opcional que recebe a funcão?*/
+console.log(g);
+  /*
+    Este processo nos loguea 215 porque o valor inicial foi 200, lembra do
+    ultimo parametro opcional que recebe a funcão?
+  */
+
+//---------------------------------------------------------------------------------------
 
 //Exemplo 2
+
 //Agora vamos tentar fazer a mesma coisa sem o parametro inicial de 200, veamos que retona
 var plutonio = [1,2,3,4,5];
 
@@ -33,6 +39,8 @@ uranio = function(v1,v2,ind,arr,start){
 var p = plutonio.reduce(uranio);
 console.log(p); //loguea 15 pois faz a soma dos elementos que estão dentro do array;
 
+//---------------------------------------------------------------------------------------
+
 //Exemplo 3
 var plutonio = [1,2,3,4,5, 'jairo','patricia'];
 
@@ -43,10 +51,16 @@ uranio = function(v1,v2,ind,arr,start){
 }
 
 var d = plutonio.reduce(uranio);
-console.log(d); /*Atenção isso devolve um NaN, ouseja não é um numero, pois o array possui 'Strings'
-Além dentro de está função não é possivel ter um if pois se alguma coisa da errado, não devolve nada
-o ideal seria que a filtragem seja feita pela função filter() e dessa forma você terá um codigo melhor
-estruturado. */
+console.log(d);
+
+  /*
+    Atenção isso devolve um NaN, ouseja não é um numero, pois o array possui 'Strings'
+    Além dentro de está função não é possivel ter um if pois se alguma coisa da errado, não devolve nada
+    o ideal seria que a filtragem seja feita pela função filter() e dessa forma você terá um codigo melhor
+    estruturado.
+  */
+
+//---------------------------------------------------------------------------------------
 
 //Exemplo 4
 var plutonio = [1,2,3,4,5, 'jairo','patricia'];
@@ -58,5 +72,8 @@ uranio = function(v1,v2,ind,arr,start){
 }
 
 var p = plutonio.reduce(uranio);
-console.log(p); /*retorna 15jairopatricia o operando + lembra ele é especial, pois além de somar,
-ele concatena strings, cuidado! */
+console.log(p);
+/*
+  Retorna 15jairopatricia o operando + lembra ele é especial, pois além de somar,
+  ele concatena strings, cuidado!
+*/
