@@ -1,6 +1,6 @@
 /*
     metodo slice();
-    
+
     Este metodo retorna um subArray de Array, ele permite um ou dois argumentos que definem o índice,
     inicial e final del subArray a extrair.
 
@@ -22,18 +22,26 @@ var y = arr.slice(5,5);//Resulta em vazio b = []
 var z = arr.slice(4,5); //Resulta em z = ["a"]
 var w = arr.slice(5,6); //Resulta em w = ["b"]
 
-//Podemos concluir que o primeiro parametro do metodo procura dentro do Array o valor passado e
-//O segundo paramentro diz até qual posição deve chegar a busca. Mas a busca não mostrara
-//a ultima posição, por isso "y" é vazio. Para não ser vazio, o segundo paramentro deve ser "6".
+/*
+  Podemos concluir que o primeiro parametro do metodo procura dentro do Array o valor passado e
+  O segundo paramentro diz até qual posição deve chegar a busca. Mas a busca não mostrara
+  a ultima posição, por isso "y" é vazio. Para não ser vazio, o segundo paramentro deve ser "6".
+*/
+
+//---------------------------------------------------------------------------------------
 
 //Exemplo 2
 var foo = [2,3,4,1,6, "3","5"];
 
 var g = foo.slice(3);
-console.log(g); // Retorna [1, 6, "3", "5"].
+console.log(g);
+// Retorna [1, 6, "3", "5"].
 
 var f = foo.slice(2);
-console.log(f); // Retorna [4, 1, 6, "3", "5"].
+console.log(f);
+// Retorna [4, 1, 6, "3", "5"].
+
+//---------------------------------------------------------------------------------------
 
 //exemplo 3
 var banana = [2,3,4,1,6, "3","5"];
