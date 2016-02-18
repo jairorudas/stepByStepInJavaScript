@@ -1,7 +1,7 @@
 /*
           Join([arg]);
 
-      Este metodo transforma os elementos de um array em um string. admite um argumento
+      Este metodo transforma os elementos de um array em uma STRING. admite um argumento
       opcional que se destina a criar um separador para os elementos do array. Se não
       for especificado o argumento, o separador adotado por padrão é a virgula.
 */

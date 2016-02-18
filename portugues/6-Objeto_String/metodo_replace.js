@@ -25,7 +25,7 @@ var realidade = amor.replace("patricia", function(casou, pos, string){
     * pos: Posição da string procurada 20
     * string: A string completa sem ser modificada ainda.
     * Resultado final assim:
-    
+
       ["patricia", 20, "Na verdade eu amo a patricia"]
   */
   console.log(arguments);
