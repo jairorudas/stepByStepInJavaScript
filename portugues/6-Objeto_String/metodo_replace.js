@@ -16,22 +16,22 @@ console.log(botella);
 
 
 //Exemplo 2
-var amor = "Na verdade eu amo a patricia";
+var amor = "Na verdade eu amo a Diana";
 
-var realidade = amor.replace("patricia", function(casou, pos, string){
+var realidade = amor.replace("Diana", function(casou, pos, string){
   /*
     * Arguments nos devolve um array os valores de esses tres argumentos
-    * casou: "patricia"
+    * casou: "Diana"
     * pos: Posição da string procurada 20
     * string: A string completa sem ser modificada ainda.
     * Resultado final assim:
 
-      ["patricia", 20, "Na verdade eu amo a patricia"]
+      ["patricia", 20, "Na verdade eu amo a Diana"]
   */
   console.log(arguments);
 
-  if ( casou === "patricia" ) {
-    return "Diana"
+  if ( casou === "Diana" ) {
+    return "Patricia"
   } else {
     return " "
   }
