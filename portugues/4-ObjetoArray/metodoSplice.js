@@ -45,6 +45,6 @@ var conjunto = [2,5,9,7,8,9,5,6,4];
 conjunto.splice(5, 0, 28,29,33);
 console.log(conjunto);
 /*
-  Retorna [2, 5, 9, 7, 8, 28, 29, 33, 6, 4], não apaga nenhum valor e adiciona após a quinta posição
+  Retorna [2, 5, 9, 7, 8, 28, 29, 33, 9, 5, 6, 4], não apaga nenhum valor e adiciona após a quinta posição
   os valores contido após o segundo parametro.
 */
