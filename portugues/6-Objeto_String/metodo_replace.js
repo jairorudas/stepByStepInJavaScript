@@ -1,12 +1,12 @@
 /*
-    metodo replace(string | expreg, nova_string | função);
+  metodo replace(string | expreg, nova_string | função);
 
-    Este metodo replace() recebe dois parametro. O primeiro parametro é uma string a procurar ou subtring
-    ele pode ser também uma expreção regular.
+  Este metodo replace() recebe dois parametro. O primeiro parametro é uma string a procurar ou subtring
+  ele pode ser também uma expreção regular.
 
-    * O segundo parametro pode ser uma string definida pelo desenvoldor ou o RETORNO de uma função.
+  * O segundo parametro pode ser uma string definida pelo desenvoldor ou o RETORNO de uma função.
 
-    Veamos alguns exempos:
+  Veamos alguns exempos:
 */
 
 //Exemplo 1
