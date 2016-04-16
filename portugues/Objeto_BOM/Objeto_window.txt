@@ -1,0 +1,11 @@
+
+    Objeto window
+
+    Este objeto window representa uma janela aberta do navegador. Ao abrir o navegador,
+    seja uma pagina em branco ou com conteudo qualquer, é criado o objeto window. Se a
+    pagina aberta contem frames ou iframes é criado um objeto window para a pagina aberta
+    e para cada iframe.
+
+    As propiedades do objeto window são descritas a seguir.
+    As propiedades history, location, navigation e screen são referência a objeto com
+    mesmo nome, cada um com suas propriedades e metodos.
