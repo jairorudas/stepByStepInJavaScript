@@ -13,16 +13,16 @@ implementado na maioria dos navegadores, muitas de suas funcionalidades tem seu 
 no DOM (Document Object Model) que faz parte da especificação ECMAScript.
 
 * As boas practicas de desenvolvimento recomendam, sempre que houver alternativa usar o
-  DOM em detrimento do BOM !!!!
+  DOM em detrimento do BOM !
 
 * Um navegador com suas funcionalidades de BOM não tem como identificar atualizações ou
   novas implementações no ambiente em que se acha instalado podendo falhar ao rodar um
-  Script no BOM !!!
+  Script no BOM !
 
 * Ainda que muitas funcinalidades do BOM sejam bem suportadas pelos navegadores, o
   desenvolvedor precisa estar ciente e conhecer as possiveis fontes de error ao usar o
   BOM. Fazer analise fundamentada e levar em consideração todos os prós e contras é
-  essencial para o sucesso do projeto. !!!
+  essencial para o sucesso do projeto. !
 
   * O objeto de nivel mais elevado no BOM é o windows, que além de suas propiedades e
     metodos como status, self, open(), alert() contem varios outros objetos como document,
