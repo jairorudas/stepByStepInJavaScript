@@ -5,8 +5,9 @@
     da janela do navegador. Não consideram as barras de Ferramentas, de Status, de Rolagem
     e Menus.
 
-    Essas propiedades são suportadas epenas pelo nevagadore Firefox. Para
-    Internet Explorer a sintaxe é document.body.clientWidth e
+    Essas propiedades são suportadas epenas por navegadores modernos (visitar caniuse.com
+    para obter informação atualizada sobre soporte)
+    Para Internet Explorer a sintaxe é document.body.clientWidth e
     document.body.clientHeight.
 
 */
